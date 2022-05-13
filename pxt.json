@@ -1,10 +1,10 @@
 {
-    "name": "Code 1",
+    "name": "MicroBit als Controller",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.22"
     },
     "files": [
         "main.blocks",

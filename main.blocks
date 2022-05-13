@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="7x1zq/QiD6b4JcUKDEIn" x="0" y="0"/><block type="pxt-on-start" id="N*uO^;Go`Y?^M;j?1hSN" x="-19" y="179"><statement name="HANDLER"><block type="device_show_leds" id="R)A{9x$O7UC?rXnhFI:E"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="e;oA)YKc6Yd`YS1.P@w|" x="143" y="78"><statement name="HANDLER"><block type="keyboard service" id="^v*Iv.@aP#f~o,Wn.7SC"><next><block type="device_show_leds" id="uN:!Tr8FM~EP)8WbH]rS"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . # . . 
         . # . # . 
         . . . . .
-        `</field></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="device_button_event" id="VaEbL0zU{;.69@$QN$O)" x="440" y="75"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="($ti@us]+TtWu_j)lS,5"><value name="keys"><shadow type="text" id="0xM8UkoaFHVL[M71fq#e"><field name="TEXT">a</field></shadow></value></block></statement></block><block type="device_button_event" id="4#Eotw$A-nwzL_Vo4]X," x="451" y="255"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id="68a-ItO[jRV_h0Jz.zG~"><value name="keys"><shadow type="text" id="alI.sF%*_$JcCz6Uvz47"><field name="TEXT">b</field></shadow></value></block></statement></block></xml>
