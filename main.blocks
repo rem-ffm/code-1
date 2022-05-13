@@ -1,7 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="e;oA)YKc6Yd`YS1.P@w|" x="143" y="78"><statement name="HANDLER"><block type="keyboard service" id="^v*Iv.@aP#f~o,Wn.7SC"><next><block type="device_show_leds" id="uN:!Tr8FM~EP)8WbH]rS"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="e;oA)YKc6Yd`YS1.P@w|" x="29" y="-201"><statement name="HANDLER"><block type="keyboard service" id="^v*Iv.@aP#f~o,Wn.7SC"><next><block type="device_show_leds" id="uN:!Tr8FM~EP)8WbH]rS"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . # . . 
         . # . # . 
         . . . . .
-        `</field></block></next></block></statement></block><block type="device_button_event" id="VaEbL0zU{;.69@$QN$O)" x="440" y="75"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="($ti@us]+TtWu_j)lS,5"><value name="keys"><shadow type="text" id="0xM8UkoaFHVL[M71fq#e"><field name="TEXT">a</field></shadow></value></block></statement></block><block type="device_button_event" id="4#Eotw$A-nwzL_Vo4]X," x="451" y="255"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id="68a-ItO[jRV_h0Jz.zG~"><value name="keys"><shadow type="text" id="alI.sF%*_$JcCz6Uvz47"><field name="TEXT">b</field></shadow></value></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="device_button_event" id="4#Eotw$A-nwzL_Vo4]X," x="394" y="-194"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id="68a-ItO[jRV_h0Jz.zG~"><value name="keys"><shadow type="text" id="alI.sF%*_$JcCz6Uvz47"><field name="TEXT">b</field></shadow></value><next><block type="device_show_leds" id="`}.+(N:BqDD4^IQyoCV_"><field name="LEDS">`
+        . # # # . 
+        . # . . # 
+        . # # # . 
+        . # . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="VaEbL0zU{;.69@$QN$O)" x="641" y="-204"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="($ti@us]+TtWu_j)lS,5"><value name="keys"><shadow type="text" id="0xM8UkoaFHVL[M71fq#e"><field name="TEXT">a</field></shadow></value><next><block type="device_show_leds" id="EtU5QEbnfLygSok9$*FN"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field></block></next></block></statement></block></xml>
